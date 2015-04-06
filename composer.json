@@ -1,0 +1,9 @@
+{
+    "name": "jorgegc/phing-circle",
+    "description": "A collection of targets for building websites on CircleCI.",
+    "type": "library",
+    "keywords": [
+      "phing"
+    ],
+    "license": "GPL-2.0+"
+}

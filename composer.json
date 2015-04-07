@@ -3,7 +3,7 @@
     "description": "A collection of targets for building websites on CircleCI.",
     "type": "library",
     "keywords": [
-      "phing"
+        "phing"
     ],
     "license": "GPL-2.0+"
 }

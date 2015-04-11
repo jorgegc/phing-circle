@@ -10,8 +10,6 @@
 
   <target name="circle:create-vhost"
           description="Creates an Apache Virtual Host file for the project.">
-    <fail unless="circle.vhost.file"
-          message="Please provide a circle.vhost.file property." />
     <copy file="${circle.vhost.file}"
           tofile="/etc/apache2/sites-available/${phing.project.name}.conf"
           overwrite="true">

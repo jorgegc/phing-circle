@@ -23,15 +23,12 @@
           description="Enables the project's site within Apache.">
     <exec command="a2ensite ${phing.project.name}.conf"
           passthru="true"
-          logoutput="true"
           checkreturn="true" />
     <exec command="a2enmod rewrite"
           passthru="true"
-          logoutput="true"
           checkreturn="true" />
     <exec command="sudo service apache2 restart"
           passthru="true"
-          logoutput="true"
           checkreturn="true" />
   </target>
 
